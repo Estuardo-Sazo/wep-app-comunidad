@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/app', (req, res) => {
-    var file = __dirname+'/files/comunidad-app.apk';
+    var file = __dirname+'/files/AppComunidad.apk';
     res.download(file);
 });
 
